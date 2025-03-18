@@ -23,6 +23,24 @@
       .swiper-pagination-bullet-active {
         background-color: #fff;
       }
+      .primary-button {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: white;
+        background: linear-gradient(to right, #998CEE, #753EAA);
+        border-radius: 60px;
+        text-decoration: none;
+        transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+      }
+      .primary-button.accent {
+        background: linear-gradient(to right, #753EAA, #998CEE);
+      }
+      .primary-button:hover {
+        background: linear-gradient(to right, #FFF, #FFF);
+        color: #753EAA;
+      }
     </style>
   </head>
   <body>
@@ -80,7 +98,7 @@
                 </p>
                 <div class="mt-6">
                   <a
-                    class="rounded-[60px] bg-gradient-to-r from-[#998CEE] to-[#753EAA] px-6 py-3 text-white text-lg inline-block"
+                    class="primary-button"
                     href="https://my.manifestmovies.com/genesis-series-order-form"
                     target="_blank"
                     >Buy Now & Access</a
@@ -219,7 +237,7 @@
                 </ul>
                 <div class="hidden mt-10 lg:block">
                   <a
-                    class="rounded-[60px] bg-gradient-to-r from-[#998CEE] to-[#753EAA] px-6 py-3 text-white text-lg inline-block"
+                    class="primary-button"
                     href="https://my.manifestmovies.com/genesis-series-order-form"
                     target="_blank"
                     >Buy Now & Access</a
@@ -841,7 +859,7 @@
           </h3>
           <div class="mt-10 flex justify-center">
             <a
-              class="mx-auto text-center rounded-[60px] bg-gradient-to-r from-[#998CEE] to-[#753EAA] px-6 py-3 text-white text-lg inline-block"
+              class="mx-auto text-center primary-button"
               href="https://my.manifestmovies.com/genesis-series-order-form"
               target="_blank"
               >Buy Now & Access</a
@@ -926,7 +944,7 @@
         </div>
         <div class="mt-2 lg:mt-0">
           <a
-            class="w-full text-center rounded-[60px] bg-gradient-to-r from-[#998CEE] to-[#753EAA] px-6 py-3 text-white text-lg inline-block"
+            class="w-full text-center primary-button accent"
             href="https://my.manifestmovies.com/genesis-series-order-form"
             target="_blank"
             >Buy Now & Access</a
